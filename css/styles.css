@@ -1,18 +1,70 @@
-
-
-.logo {
-font-family: "Raleway";
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap'); */
+:root {
+    --background: #2F303A;
+    --background-team:  #F5F4FA;
+    --ma
 }
+
+.body {
+ font-family: 'Roboto';
+}
+
 .list {
-    list-style: none;
-}
-.header-logo {
-}
-.logo-web {
+list-style: none;
+}   
 
+.link {
+text-decoration: none;
+}
+/* ---------------------Ш-А-П-К-А----------------- */
+.logo {
+ font-family: "Raleway", sans-serif;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.19;
+ letter-spacing: 0.03em;
+}
+
+.header-list.link {
+font-family: Roboto, sans-serif;   
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+
+}
+
+.header-contacts.link {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+
+}
+
+.logo-web {
+color: #2196F3;
+}
+
+.logo-studio {
+color: #000000;
+}
+
+.hero {
+   background-color: var(--background); 
+}
+
+.staff {
+    background-color: var(--background-team);
+}
+
+.footer {
+    background-color: var(--background);
+}
+
+.contacts {
+    font-style: normal;
 }
