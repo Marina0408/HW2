@@ -1,12 +1,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap'); */
 :root {
-    --background: #2F303A;
+    --background-hero-footer: #2F303A;
     --background-team:  #F5F4FA;
-    --ma
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --header-studio-color: #000000;
+    --white-color: #FFFFFF;
+    --footer-mail-tel: rgba(255, 255, 255, 0.6)
 }
 
-.body {
- font-family: 'Roboto';
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -25,36 +30,52 @@ text-decoration: none;
  letter-spacing: 0.03em;
 }
 
-.header-list.link {
-font-family: Roboto, sans-serif;   
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121;
-
-}
-
-.header-contacts.link {
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
-
-}
-
 .logo-web {
-color: #2196F3;
+color: var(--accent-color);
 }
 
 .logo-studio {
-color: #000000;
+color: var(--header-studio-color);
+}
+
+.header-list a,
+.contacts a  {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+.contacts a {
+color: var(--primary-text-color);
 }
 
 .hero {
-   background-color: var(--background); 
+   background-color: var(--background-hero-footer); 
+}
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--white-color);
+}
+
+.hero-btn {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--white-color);
 }
 
 .staff {
@@ -62,7 +83,10 @@ color: #000000;
 }
 
 .footer {
-    background-color: var(--background);
+    background-color: var(--background-hero-footer);
+}
+.logo-studio-footer {
+color: var(--white-color);
 }
 
 .contacts {
